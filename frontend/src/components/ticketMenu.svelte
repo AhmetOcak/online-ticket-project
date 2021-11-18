@@ -6,20 +6,20 @@
     <div class="ticketsection">
         <div class="searchbox">
             <div class="card">
-                <form class="form">
-                    <label for="kalkis">Kalkış Noktası</label>
+                <form class="form fs-5">
+                    <label for="kalkis" class="fs-4">Kalkış Noktası</label>
                     <select id="kalkis" class="py-3 mb-3">
                         <option value="veritabanı">veritabanı</option>
                         <option value="veritabanı">veritabanı</option>
                     </select>
-                    <label for="varis">Varış Noktası</label>
+                    <label for="varis" class="fs-4">Varış Noktası</label>
                     <select id="varis" class="py-3 mb-3">
                         <option value="veritabanı">veritabanı</option>
                         <option value="veritabanı">veritabanı</option>
                     </select>
-                    <label for="tarih">Yolculuk Tarihi</label>
+                    <label for="tarih" class="fs-4">Yolculuk Tarihi</label>
                     <input type="date" id="tarih" class="p-3">
-                    <button type="button" class="btn btn-dark mt-4 p-3">Bilet Bul</button>
+                    <button type="button" class="btn btn-dark mt-4 p-3 fs-4">Bilet Bul</button>
                 </form>
             </div>
         </div>
@@ -44,9 +44,9 @@
     }
 
     .card {
-        width: 400px;
-        height: 400px;
-        background-color: #fff;
+        width: 450px;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.5);
         justify-content: center;
         padding: 30px;
     }
