@@ -7,9 +7,6 @@
     <Navbar />
     <TicketSection />
     <!-- BİLET SATIN ALMA BÖLÜMÜ-->
-
-
-
 </main>
 
 <style>
