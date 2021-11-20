@@ -1,6 +1,7 @@
 <script>
     import PageLang from './pageLang.svelte';
     import TlUsd from './tlUsd.svelte';
+    import { link } from 'svelte-spa-router';
 </script>
 
 <main>
@@ -12,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-x-circle pe-1"></i>Bilet İptal</a>
+                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i>Bilet İptal</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link"><i class="bi bi-search pe-1"></i>Rezervasyonlarım</a>
