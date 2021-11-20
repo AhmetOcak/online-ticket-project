@@ -10,7 +10,7 @@
                     <h2>Heading</h2>
                     <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
                     <p>
-                        <a href="#"><i>Sıkça Sorulan Sorular</i></a>
+                        <a href="#" ><i>Sıkça Sorulan Sorular</i></a>
                         <br>
                         <a href="#"><i>Yardım</i></a>
                     </p>
@@ -26,10 +26,10 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-xs-12 location">
-                    <h4 class="mt-lg-0 mt-sm-4">Adres ve İletişim</h4>
-                    <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-                    <p class="mb-0"><i class="mr-3"></i>(541) 754-3010</p>
-                    <p><i class="mr-3"></i>info@hsdf.com</p>
+                    <h4>Adres ve İletişim</h4>
+                    <p class="text-white-50">22, Lorem ipsum dolor, consectetur adipiscing</p>
+                    <p class="mb-1 text-white-50"><i class="bi bi-telephone-fill text-white"></i> (541) 754-3010</p>
+                    <p class="text-white-50"><i class="bi bi-envelope-fill text-white"></i> info@hsdf.com</p>
                 </div>
                 </div>
                 <div class="row mt-5">
@@ -43,7 +43,7 @@
 
 <style>
     a {
-        color: #909287;
+        color: #909294;
         text-decoration: none;
     }
     
