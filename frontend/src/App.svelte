@@ -1,8 +1,13 @@
 <script>
 	import HomePage from './views/homePage.svelte'
+	import TicketCancellationPage from './views/ticketCancellationPage.svelte';
+
+	import Router from 'svelte-spa-router';
+	import routes from './router/routes.js';
 </script>
 
-<HomePage />
+<Router {routes} />
+
 <main>
 	
 </main>
