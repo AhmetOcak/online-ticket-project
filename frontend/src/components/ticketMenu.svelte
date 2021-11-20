@@ -1,5 +1,5 @@
 <script>
-    let image = './assets/busplane.png';
+    
 </script>
 
 <main>

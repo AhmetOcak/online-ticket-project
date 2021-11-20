@@ -1,5 +1,6 @@
 <script>
-
+    import PageLang from './pageLang.svelte';
+    import TlUsd from './tlUsd.svelte';
 </script>
 
 <main>
@@ -23,16 +24,10 @@
                         <a href="#" class="nav-link">Giriş</a>
                     </li>
                     <li class="nav-item px-3">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>TR</option>
-                            <option value="1">ENG</option>
-                        </select>
+                        <PageLang />
                     </li>
                     <li class="nav-item">
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>TL</option>
-                            <option value="1">USD</option>
-                        </select>
+                        <TlUsd />
                     </li>
                 </ul>
             </div>
