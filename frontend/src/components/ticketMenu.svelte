@@ -17,7 +17,7 @@
                         <option value="veritabanı">veritabanı</option>
                         <option value="veritabanı">veritabanı</option>
                     </select>
-                    <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1"></i>Yolculuk Tarihi</label>
+                    <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                     <input type="date" id="tarih" class="p-3">
                     <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Bilet Bul</button>
                 </form>
