@@ -6,16 +6,16 @@
     <div class="mt-5 pt-5 pb-5 footer bg-dark text-white">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-xs-12 about-company">
-                    <h2>Heading</h2>
-                    <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+                <div class="col-lg-5 col-xs-12">
+                    <h2>Online Bilet Sitesi</h2>
+                    <p class="pr-5 text-white-50">Türkiye'nin en güvenilir uçak ve bilet sitesi. </p>
                     <p>
                         <a href="#" ><i>Sıkça Sorulan Sorular</i></a>
                         <br>
                         <a href="#"><i>Yardım</i></a>
                     </p>
                 </div>
-                <div class="col-lg-3 col-xs-12 links">
+                <div class="col-lg-3 col-xs-12">
                     <h4 class="mt-lg-0 mt-sm-3">Bizi takip edin</h4>
                         <ul class="m-0 p-0">
                         <li>- <a href="https://www.facebook.com/" target="blank">Facebook</a></li>
@@ -25,7 +25,7 @@
                         <li>- <a href="https://web.bip.com/" target="blank">Bip</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-xs-12 location">
+                <div class="col-lg-4 col-xs-12">
                     <h4>Adres ve İletişim</h4>
                     <p class="text-white-50">22, Lorem ipsum dolor, consectetur adipiscing</p>
                     <p class="mb-1 text-white-50"><i class="bi bi-telephone-fill text-white"></i> (541) 754-3010</p>
@@ -33,7 +33,7 @@
                 </div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col copyright">
+                    <div class="col">
                         <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
                     </div>
                 </div>
