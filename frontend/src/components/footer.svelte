@@ -9,6 +9,11 @@
                 <div class="col-lg-5 col-xs-12 about-company">
                     <h2>Heading</h2>
                     <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+                    <p>
+                        <a href="#"><i>Sıkça Sorulan Sorular</i></a>
+                        <br>
+                        <a href="#"><i>Yardım</i></a>
+                    </p>
                 </div>
                 <div class="col-lg-3 col-xs-12 links">
                     <h4 class="mt-lg-0 mt-sm-3">Bizi takip edin</h4>
@@ -21,15 +26,15 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-xs-12 location">
-                    <h4 class="mt-lg-0 mt-sm-4">Adres ve İletişim Bilgileri</h4>
+                    <h4 class="mt-lg-0 mt-sm-4">Adres ve İletişim</h4>
                     <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
-                    <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+                    <p class="mb-0"><i class="mr-3"></i>(541) 754-3010</p>
+                    <p><i class="mr-3"></i>info@hsdf.com</p>
                 </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col copyright">
-                        <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+                        <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
                     </div>
                 </div>
             </div>
