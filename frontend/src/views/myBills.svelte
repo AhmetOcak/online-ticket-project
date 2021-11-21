@@ -37,7 +37,7 @@
 
     li {
         width: 800px;
-        background-color: rgb(255, 255,255, 0.7);
+        background-color: rgb(255, 193, 7, 0.7);
         padding: 20px;
         list-style: none;
     }
