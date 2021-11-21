@@ -1,27 +1,25 @@
 <script>
+    import { push } from 'svelte-spa-router';
+
     let showCard = false;
     let isActive = true;
 
-    const selectBus = () => {
-        showCard = true;
-        isActive = true;
-    }
-
-    const selectPlane = () => {
-        showCard = false;
-        isActive = false;
+    const selectCard = () => {
+        showCard = !showCard;
+        isActive = !isActive;
     }
 
     let busIcon = '../assets/bus.png';
     let planeIcon = '../assets/airplane.png';
+    
 </script>
 
 <main>
     <div class="ticketsection">
         <div class="searchbox">
             <div class="buttons">
-                <button on:click={selectBus} class:active={isActive}><img src={busIcon} alt="">Otobüs</button>
-                <button on:click={selectPlane} class:active={!isActive}><img src={planeIcon} alt="">Uçak</button>
+                <button on:click={selectCard} class:active={isActive}><img src={busIcon} alt="">Otobüs</button>
+                <button on:click={selectCard} class:active={!isActive}><img src={planeIcon} alt="">Uçak</button>
             </div>
             <ul>
                 {#if showCard}
@@ -40,7 +38,7 @@
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">
-                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Otobüs Bileti Bul</button>
+                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button" on:click={() => push('/ticketList')}>Uçak Bileti Bul</button>
                         </form>
                     </div>
                 </li>
@@ -61,7 +59,7 @@
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">
-                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Uçak Bileti Bul</button>
+                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button" on:click={() => push('/ticketList')}>Otobüs Bileti Bul</button>
                         </form>
                     </div>
                 </li>
