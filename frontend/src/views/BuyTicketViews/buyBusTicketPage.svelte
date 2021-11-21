@@ -35,7 +35,7 @@
                 <div class="card text-dark bg-light mb-3" id="cardInfo">
                     <div class="card-header">Ödeme Bilgileri</div>
                     <div class="">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-row justify-content-around">
                             <img src={masterCard} alt="">
                             <img src={visaCard} alt="">
                             <img src={americanExpress} alt="">
