@@ -76,7 +76,7 @@
                 <div class="form-check ms-5 mb-5 me-5">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
                     <label class="form-check-label" for="flexCheckDefault">
-                        <a href="/obfPage" use:link><b>Ön Bilgilendirme Formu'nu</b></a>, <a href="/mssPage" use:link><b>Mesafeli Satış Sözleşmesi'ni</b></a> okudum ve Covid-19 açısından güvenli olduğumu onaylıyorum.
+                        <a href="/obfPage" use:link><b>Ön Bilgilendirme Formu'nu</b></a>, <a href="/mssPage" use:link><b>Mesafeli Satış Sözleşmesi'ni</b></a> okudum ve onaylıyorum.
                     </label>
                 </div>
             </div>
