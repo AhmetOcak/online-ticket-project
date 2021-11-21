@@ -9,9 +9,12 @@
         <div class="section1 d-flex flex-row justify-content-around align-items-center pt-5">
             <div class="text-white">
                 <h4 class="pt-4">onlinepay</h4>
-                <h3 >cüzdanım ile hızlı öde hep kazan</h3>
+                <h3>cüzdanım ile hızlı öde hep kazan</h3>
             </div>
-            <div class="card text-dark mb-3 mt-4 p-3" style="max-width: 20rem;" id="card">
+            <div class="card text-dark mb-3 mt-4 p-3 d-flex flex-row" style="max-width: 20rem;" id="card">
+                <div>
+                    <img src="../assets/wallet.png" alt=""> 
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">Toplam Bakiye</h5>
                     <p class="card-text text-primary fs-2">0.00TL</p>
