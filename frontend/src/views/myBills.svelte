@@ -10,16 +10,16 @@
             <h1 class="pt-3">Faturalarım</h1>
             <ul class="list-group">
                 <li>
-                    <BillCard />
+                    <BillCard companyName="THY" userName="Ahmet Ocak" billPrice="175" date="01.12.2021" ticketID="132"/>
                 </li>
                 <li>
-                    <BillCard />
+                    <BillCard companyName="Pegasus" userName="Ahmet Ocak" billPrice="200" date="11.12.2021" ticketID="133"/>
                 </li>
                 <li>
-                    <BillCard />
+                    <BillCard companyName="Pamukkale" userName="Ahmet Ocak" billPrice="100" date="23.12.2021" ticketID="134"/>
                 </li>
                 <li>
-                    <BillCard />
+                    <BillCard companyName="Isparta Petrol" userName="Ahmet Ocak" billPrice="185" date="30.12.2021" ticketID="135"/>
                 </li>
             </ul>
         </div>

@@ -11,7 +11,7 @@
                 <input type="text" id="bid" class="input">
             </div>
             <div class="userName d-flex flex-column">
-                <label for="un" class="fs-4 ms-3">User Name</label>
+                <label for="un" class="fs-4 ms-3">Kullanıcı Adı</label>
                 <input type="text" id="un" class="input fs-4">
             </div>
             <div class="button d-flex flex-row-reverse p-4">
