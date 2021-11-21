@@ -45,6 +45,7 @@
         background-image: url("../assets/walletBG.png");
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
     }
 
     .section1 {
