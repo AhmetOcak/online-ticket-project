@@ -6,13 +6,13 @@ import Navbar from "../components/Navbar/navbar.svelte";
     <div class="section d-flex justify-content-center align-items-center">
         <Navbar />
             <div class="textSection">
-                <h3 class="text-primary">MESAFELİ SATIŞ SÖZLEŞMESİ</h3>
+                <h3>MESAFELİ SATIŞ SÖZLEŞMESİ</h3>
             <p>İşbu sözleşme 13.06.2003 tarih ve 25137 sayılı Resmi Gazetede yayınlanan Mesafeli Sözleşmeler Uygulama Usul ve Esasları Hakkında Yönetmelik gereği internet üzerinden gerçekleştiren satışlar için sözleşme yapılması zorunluluğuna istinaden düzenlenmiş olup, maddeler halinde aşağıdaki gibidir.</p>
-            <h5>MADDE 1 - KONU</h5>
+            <h5 class="text-primary">MADDE 1 - KONU</h5>
             <p>İşbu sözleşmenin konusu, www.onlinebilet.com İnternet sitesi üzerinden SATICI'nın, ALICI'ya satışını yaptığı, yolcu taşıma biletinin satışı ile ilgili olarak 4077 sayılı Tüketicilerin Korunması Hakkındaki Kanun-Mesafeli Sözleşmeleri Uygulama Esas ve Usulleri Hakkında Yönetmelik hükümleri gereğince tarafların hak ve yükümlülüklerinin kapsamaktadır.</p>
-            <h5>MADDE 2 - TARAFLAR</h5>
+            <h5 class="text-primary">MADDE 2 - TARAFLAR</h5>
             <h5>SATICI</h5>
-            <table class="table table-bordered fs-3">
+            <table class="table table-bordered fs-5">
                 <tr>
                     <th>Ünvan : </th>
                     <th>ONLİNE BİLET SATIŞ SİTESİ</th>
@@ -32,7 +32,7 @@ import Navbar from "../components/Navbar/navbar.svelte";
             </table>
             <h5>ALICI</h5>
             <p>Bileti satın alan kişidir.</p>
-            <h5>MADDE 3 - GENEL HÜKÜMLER</h5>
+            <h5 class="text-primary">MADDE 3 - GENEL HÜKÜMLER</h5>
             <ul>
                 <li>
                     <p>ALICI, www.onlinebilet.com internet sitesinde sözleşme konusu ürünü temel nitelikleri, tüm vergiler dahil satış fiyatı, ödeme şekli ve SATICI'nın tam ticari unvanı, açık adresi ve iletişim bilgilerine ilişkin ön bilgileri okuyup bilgi sahibi olduğunu ve elektronik ortamda gerekli teyidi verdiğini beyan eder. <br>
@@ -137,7 +137,7 @@ Seferler sırasında meydana gelebilecek her türlü kaza, mal veya can kaybı g
                     </p>
                 </li>
             </ul>
-            <h5>MADDE 5 - CAYMA HAKKI</h5>
+            <h5 class="text-primary">MADDE 5 - CAYMA HAKKI</h5>
             <ul>
                 <li>
                     <p>
@@ -150,7 +150,7 @@ Seferler sırasında meydana gelebilecek her türlü kaza, mal veya can kaybı g
                     </p>
                 </li>
             </ul>
-            <h5>MADDE 6 - BORÇLUNUN TEMERRÜDÜ</h5>
+            <h5 class="text-primary">MADDE 6 - BORÇLUNUN TEMERRÜDÜ</h5>
             <ul>
                 <li>
                     <p>
@@ -158,7 +158,7 @@ Seferler sırasında meydana gelebilecek her türlü kaza, mal veya can kaybı g
                     </p>
                 </li>
             </ul>
-            <h5>MADDE 7 - YETKİLİ MAHKEME</h5>
+            <h5 class="text-primary">MADDE 7 - YETKİLİ MAHKEME</h5>
             <ul>
                 <li>
                     <p>
@@ -186,10 +186,10 @@ Seferler sırasında meydana gelebilecek her türlü kaza, mal veya can kaybı g
         width: 70%;
         height: 80vh;
         background-color: rgb(255, 255,255, 1);
+        padding: 20px;
     }
 
     p {
-        padding-left: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
 </style>
