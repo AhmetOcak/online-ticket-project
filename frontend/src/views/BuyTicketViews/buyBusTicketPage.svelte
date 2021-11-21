@@ -44,7 +44,7 @@
                             <label for="cardNo">Kart Numarası</label>
                             <input type="password" id="cardNo" placeholder="•••• •••• •••• ••••">
                         </div>
-                        <d class="card-body d-flex flex-row justify-content-between">
+                        <div class="card-body d-flex flex-row justify-content-between">
                             <div class="card-body d-flex flex-column">
                                 <label for="last">Son Kullanma Tarihi</label>
                                 <select name='expireMM' id='expireMM'>
@@ -76,7 +76,13 @@
                                 <label for="cvc2">CVC2</label>
                                 <input type="number" id="cvc2" placeholder="•••">
                             </div>
-                        </d>
+                        </div>
+                        <div class="form-check ms-5 mb-5 me-5">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                <a href="#"><b>Ön Bilgilendirme Formu'nu</b></a>, <a href="#"><b>Mesafeli Satış Sözleşmesi'ni</b></a> okudum ve Covid-19 açısından güvenli olduğumu onaylıyorum.
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,5 +114,10 @@
     .btn {
         width: 30%;
         height: 8vh;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000;
     }
 </style>
