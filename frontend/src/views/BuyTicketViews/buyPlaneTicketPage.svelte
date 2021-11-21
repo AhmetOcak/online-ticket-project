@@ -11,7 +11,7 @@
             <div class="ticketInfo">
                 <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL"/>
             </div>
-            <BuyTicket />
+            <BuyTicket buttonText="Ödeme Yap"/>
         </div>
     </div>
 </main>

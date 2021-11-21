@@ -2,6 +2,8 @@
     let masterCard = '../assets/masterCard.png';
     let visaCard = '../assets/visa.png';
     let americanExpress = '../assets/american-express.png';
+
+    export let buttonText;
 </script>
 
 <main>
@@ -19,7 +21,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-4">
-                <button type="button" class="btn btn-success fs-5">Ödeme Yap</button>
+                <button type="button" class="btn btn-success fs-5">{buttonText}</button>
             </div>
         </div>
         <div class="space p-3"></div>
