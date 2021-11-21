@@ -1,9 +1,12 @@
 <script>
+    import { push } from "svelte-spa-router";
+
     export let companyName;
     export let departureTime;
     export let durationTime;
     export let arrivalTime;
     export let price;
+    export let pushPage;
 </script>
 
 <main>
@@ -34,7 +37,7 @@
                     <p>{price}</p>
                 </div>
             </div>
-            <button type="button" class="btn btn-dark">Seç</button>
+            <button type="button" class="btn btn-dark" on:click={() => push(pushPage)}>Seç</button>
         </div>
     </div>
 </main>
