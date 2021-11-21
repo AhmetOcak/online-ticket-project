@@ -1,23 +1,30 @@
 <script>
     let showCard = false;
+    let isActive = true;
 
     const selectBus = () => {
         showCard = true;
+        isActive = true;
     }
 
     const selectPlane = () => {
         showCard = false;
+        isActive = false;
     }
+
+    let busIcon = '../assets/bus.png';
+    let planeIcon = '../assets/airplane.png';
 </script>
 
 <main>
     <div class="ticketsection">
         <div class="searchbox">
+            <div class="buttons">
+                <button on:click={selectBus} class:active={isActive}><img src={busIcon} alt="">Otobüs</button>
+                <button on:click={selectPlane} class:active={!isActive}><img src={planeIcon} alt="">Uçak</button>
+            </div>
             <ul>
-                <li class="buttons">
-                    <button on:click={selectBus}>Otobüs</button>
-                    <button on:click={selectPlane}>Uçak</button>
-                    {#if showCard}
+                {#if showCard}
                 <li>
                     <div class="card">
                         <form class="form fs-5">
@@ -33,7 +40,7 @@
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">
-                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Bilet Bul</button>
+                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Otobüs Bileti Bul</button>
                         </form>
                     </div>
                 </li>
@@ -54,12 +61,11 @@
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">
-                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Bilet Bul</button>
+                            <button type="button" class="btn btn-dark mt-4 p-3 fs-4" id="button">Uçak Bileti Bul</button>
                         </form>
                     </div>
                 </li>
                 {/if}
-                </li>
             </ul>
         </div>
     </div>
@@ -80,6 +86,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     .card {
@@ -105,9 +112,14 @@
     }
 
     .buttons {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
+        margin-right: 21vh;
+    }
+
+    .buttons button {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .buttons .active {
+        background-color: rgba(255, 255, 255, 1);
     }
 </style>
