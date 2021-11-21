@@ -71,9 +71,9 @@
 
 <style>
     .ticketsection {
-        background-image: url("../assets/busplane.png");
+        background-image: url("../assets/mainPageBG.png");
         background-repeat: no-repeat;
-        background-size: 100% 800px;
+        background-size: 100% 1000px;
         display: flex;
         justify-content: center;
     }
