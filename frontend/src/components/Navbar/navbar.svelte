@@ -13,20 +13,20 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i>Bilet İptal</a>
+                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Bilet İptal</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-search pe-1"></i>Rezervasyonlarım</a>
+                        <a href="#" class="nav-link"><i class="bi bi-search pe-1"></i><p>Rezervasyonlarım</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-person-circle pe-1"></i>Üye ol</a>
+                        <a href="#" class="nav-link"><i class="bi bi-person-circle pe-1"></i><p>Üye ol</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-box-arrow-in-right pe-1"></i>Giriş</a>
+                        <a href="#" class="nav-link"><i class="bi bi-box-arrow-in-right pe-1"></i><p>Giriş</p></a>
                     </li>
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown pb-3">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="bi bi-person-circle pe-1"></i>
                                 </a>
@@ -41,12 +41,14 @@
                             </li>
                         </ul>
                     </div>
-                    <li class="nav-item px-3">
-                        <PageLang />
-                    </li>
-                    <li class="nav-item">
-                        <TlUsd />
-                    </li>
+                    <div class="d-flex flex-row">
+                        <li class="nav-item px-3">
+                            <PageLang />
+                        </li>
+                        <li class="nav-item">
+                            <TlUsd />
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -56,5 +58,8 @@
 <style>
     a {
         text-decoration: none;
+        display: flex;
+        flex-direction: row;
     }
+
 </style>

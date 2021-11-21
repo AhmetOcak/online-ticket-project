@@ -27,9 +27,9 @@
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <h4>Adres ve İletişim</h4>
-                    <p class="text-white-50">22, Lorem ipsum dolor, consectetur adipiscing</p>
-                    <p class="mb-1 text-white-50"><i class="bi bi-telephone-fill text-white"></i> (541) 754-3010</p>
-                    <p class="text-white-50"><i class="bi bi-envelope-fill text-white"></i> info@hsdf.com</p>
+                    <p class="text-white-50">Isparta Merkez, Türkiye</p>
+                    <p class="mb-1 text-white-50"><i class="bi bi-telephone-fill text-white"></i> 0850 555 55 55</p>
+                    <p class="text-white-50"><i class="bi bi-envelope-fill text-white"></i> info@onlinebilet.com</p>
                 </div>
                 </div>
                 <div class="row mt-5">
