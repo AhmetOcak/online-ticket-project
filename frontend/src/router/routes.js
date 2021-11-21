@@ -7,6 +7,7 @@ import BuyPlaneTicketPage from '../views/BuyTicketViews/buyPlaneTicketPage.svelt
 import WalletPage from '../views/walletPage.svelte';
 import MyBillsPage from '../views/myBills.svelte';
 import MSSPage from '../views/MSSPage.svelte';
+import OBFPage from '../views/OBFPage.svelte';
 
 const routes = {
     '/': HomePage,
@@ -17,7 +18,8 @@ const routes = {
     '/buyPlaneTicketPage': BuyPlaneTicketPage,
     '/walletPage': WalletPage,
     '/myBillsPage': MyBillsPage,
-    '/mssPage': MSSPage
+    '/mssPage': MSSPage,
+    '/obfPage': OBFPage
 };
 
 export default routes;
