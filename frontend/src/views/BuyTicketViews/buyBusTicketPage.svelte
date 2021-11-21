@@ -1,11 +1,112 @@
 <script>
+    import Navbar from '../../components/Navbar/navbar.svelte';
+    import TicketCard from '../../components/TicketList/ticketCard.svelte';
 
+    let masterCard = '../assets/masterCard.png';
+    let visaCard = '../assets/visa.png';
+    let americanExpress = '../assets/american-express.png';
 </script>
 
 <main>
-    
+    <div class="section d-flex flex-column justify-content-center">
+        <Navbar />
+        <div class="container">
+            <div class="ticketInfo">
+                <TicketCard companyName="ISPARTA PETROL" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL"/>
+            </div>
+            <div class="d-flex flex-row justify-content-between">
+                <div class="card text-dark bg-light mb-3" id="passengerInfo">
+                    <div class="card-header">Yolcu Bilgileri</div>
+                    <div class="">
+                        <div class="card-body d-flex flex-column">
+                            <label for="name">Adı Soyadı</label>
+                            <input type="text" id="name" placeholder="Doldurulması zorunludur">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <label for="tc">T.C. Kimlik No</label>
+                            <input type="number" id="tc" placeholder="Doldurulması zorunludur">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button type="button" class="btn btn-success fs-5">Ödeme Yap</button>
+                    </div>
+                </div>
+                <div class="space p-3"></div>
+                <div class="card text-dark bg-light mb-3" id="cardInfo">
+                    <div class="card-header">Ödeme Bilgileri</div>
+                    <div class="">
+                        <div class="card-body">
+                            <img src={masterCard} alt="">
+                            <img src={visaCard} alt="">
+                            <img src={americanExpress} alt="">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <label for="cardNo">Kart Numarası</label>
+                            <input type="password" id="cardNo" placeholder="•••• •••• •••• ••••">
+                        </div>
+                        <d class="card-body d-flex flex-row justify-content-between">
+                            <div class="card-body d-flex flex-column">
+                                <label for="last">Son Kullanma Tarihi</label>
+                                <select name='expireMM' id='expireMM'>
+                                    <option value=''>Month</option>
+                                    <option value='01'>January</option>
+                                    <option value='02'>February</option>
+                                    <option value='03'>March</option>
+                                    <option value='04'>April</option>
+                                    <option value='05'>May</option>
+                                    <option value='06'>June</option>
+                                    <option value='07'>July</option>
+                                    <option value='08'>August</option>
+                                    <option value='09'>September</option>
+                                    <option value='10'>October</option>
+                                    <option value='11'>November</option>
+                                    <option value='12'>December</option>
+                                </select> 
+                                <select name='expireYY' id='expireYY'>
+                                    <option value=''>Year</option>
+                                    <option value='21'>2021</option>
+                                    <option value='22'>2022</option>
+                                    <option value='23'>2023</option>
+                                    <option value='24'>2024</option>
+                                    <option value='24'>2025</option>
+                                    <option value='24'>2026</option>
+                                </select> 
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <label for="cvc2">CVC2</label>
+                                <input type="number" id="cvc2" placeholder="•••">
+                            </div>
+                        </d>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 <style>
-    
+    .section {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../assets/busBG.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    #passengerInfo {
+        width: 45%;
+    }
+
+    #cardInfo {
+        width: 45%;
+    }
+
+    .btn {
+        width: 30%;
+        height: 8vh;
+    }
 </style>
