@@ -5,6 +5,7 @@ import PlaneTicketListPage from '../views/TicketListViews/planeTicketListPage.sv
 import BuyBusTicketPage from '../views/BuyTicketViews/buyBusTicketPage.svelte';
 import BuyPlaneTicketPage from '../views/BuyTicketViews/buyPlaneTicketPage.svelte';
 import WalletPage from '../views/walletPage.svelte';
+import MyBillsPage from '../views/myBills.svelte';
 
 const routes = {
     '/': HomePage,
@@ -13,7 +14,8 @@ const routes = {
     '/planeTicketListPage': PlaneTicketListPage,
     '/buyBusTicketPage': BuyBusTicketPage,
     '/buyPlaneTicketPage': BuyPlaneTicketPage,
-    '/walletPage': WalletPage
+    '/walletPage': WalletPage,
+    '/myBillsPage': MyBillsPage
 };
 
 export default routes;
