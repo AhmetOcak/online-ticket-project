@@ -24,6 +24,23 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link"><i class="bi bi-box-arrow-in-right pe-1"></i>Giriş</a>
                     </li>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-person-circle pe-1"></i>
+                                </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-wallet-fill"></i> Cüzdanım</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-receipt"></i> Faturalarım</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-geo"></i> Seyahatlerim</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-x-octagon-fill"></i> Hesaptan Çıkış</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                    </div>
                     <li class="nav-item px-3">
                         <PageLang />
                     </li>
@@ -37,5 +54,7 @@
 </main>
 
 <style>
-    
+    a {
+        text-decoration: none;
+    }
 </style>
