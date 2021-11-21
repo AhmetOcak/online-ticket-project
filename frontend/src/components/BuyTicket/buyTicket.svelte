@@ -6,6 +6,7 @@
     let americanExpress = '../assets/american-express.png';
 
     export let buttonText;
+
 </script>
 
 <main>
@@ -15,11 +16,11 @@
             <div class="">
                 <div class="card-body d-flex flex-column">
                     <label for="name">Adı Soyadı</label>
-                    <input type="text" id="name" placeholder="Doldurulması zorunludur">
+                    <input type="text" id="name" placeholder="Doldurulması zorunludur" required>
                 </div>
                 <div class="card-body d-flex flex-column">
                     <label for="tc">T.C. Kimlik No</label>
-                    <input type="number" id="tc" placeholder="Doldurulması zorunludur">
+                    <input type="number" id="tc" placeholder="Doldurulması zorunludur" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="11" required>
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-4">
@@ -37,7 +38,7 @@
                 </div>
                 <div class="card-body d-flex flex-column">
                     <label for="cardNo">Kart Numarası</label>
-                    <input type="password" id="cardNo" placeholder="•••• •••• •••• ••••">
+                    <input type="password" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required>
                 </div>
                 <div class="card-body d-flex flex-row justify-content-between">
                     <div class="card-body d-flex flex-column">
@@ -69,11 +70,11 @@
                     </div>
                     <div class="card-body d-flex flex-column">
                         <label for="cvc2">CVC2</label>
-                        <input type="number" id="cvc2" placeholder="•••">
+                        <input type="number" id="cvc2" placeholder="•••" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="3" required>
                     </div>
                 </div>
                 <div class="form-check ms-5 mb-5 me-5">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
                     <label class="form-check-label" for="flexCheckDefault">
                         <a href="#"><b>Ön Bilgilendirme Formu'nu</b></a>, <a href="/mssPage" use:link><b>Mesafeli Satış Sözleşmesi'ni</b></a> okudum ve Covid-19 açısından güvenli olduğumu onaylıyorum.
                     </label>
