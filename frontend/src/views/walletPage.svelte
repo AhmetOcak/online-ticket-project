@@ -1,5 +1,6 @@
 <script>
     import Navbar from '../components/Navbar/navbar.svelte';
+    import BuyTicket from '../components/BuyTicket/buyTicket.svelte';
 </script>
 
 <main>
@@ -17,8 +18,18 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            
+        <div class="container mt-4">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="card text-dark bg-light mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title"><b class="fs-3">Şimdi yükle, hep kazan</b></h5>
+                            <p class="card-text fs-4">Kartından hemen yükle, Cüzdanım ile avantajlı alışverişin keyfini çıkart</p>
+                            <BuyTicket buttonText="Bakiye Ekle"/>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 
