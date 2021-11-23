@@ -11,7 +11,8 @@
 
 <main>
     <div class="d-flex flex-row justify-content-between">
-        <div class="card text-dark bg-light mb-3" id="passengerInfo">
+        <!--
+            <div class="card text-dark bg-light mb-3" id="passengerInfo">
             <div class="card-header">Yolcu Bilgileri</div>
             <div class="">
                 <div class="card-body d-flex flex-column">
@@ -27,6 +28,7 @@
                 <button type="button" class="btn btn-success fs-5">{buttonText}</button>
             </div>
         </div>
+        -->
         <div class="space p-3"></div>
         <div class="card text-dark bg-light mb-3" id="cardInfo">
             <div class="card-header">Ödeme Bilgileri</div>
