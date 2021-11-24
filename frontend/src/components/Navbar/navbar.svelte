@@ -62,4 +62,8 @@
         flex-direction: row;
     }
 
+    .navbar {
+        position: absolute;
+    }
+
 </style>
