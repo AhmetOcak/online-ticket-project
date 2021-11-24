@@ -11,7 +11,6 @@
 
 <main>
     <div class="d-flex flex-row justify-content-between">
-        
             <div class="card text-dark bg-light mb-3" id="passengerInfo">
             <div class="card-header">Yolcu Bilgileri</div>
             <div class="">
