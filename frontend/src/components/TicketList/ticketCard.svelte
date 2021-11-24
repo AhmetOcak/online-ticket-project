@@ -18,7 +18,7 @@
         <div class="card-header fs-4 d-flex flex-row justify-content-between">
             {companyName}
             {#if cancelTheTicket}
-                <button type="button" class="btn btn-danger p-3 fs-5">Bileti iptal et</button>
+                <button type="button" class="btn btn-danger p-3 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Bileti iptal et</button>
             {/if}
         </div>
         <div class="card-body d-flex flex-row justify-content-between">
