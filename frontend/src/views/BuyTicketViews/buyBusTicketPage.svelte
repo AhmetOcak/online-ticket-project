@@ -8,8 +8,8 @@
     <div class="section d-flex flex-column justify-content-center">
         <Navbar />
         <div class="container">
-            <div class="ticketInfo">
-                <TicketCard companyName="ISPARTA PETROL" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL"/>
+            <div class="ticketInfo mt-5">
+                <TicketCard companyName="ISPARTA PETROL" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" cancelTheTicket=true arrivalPlace="İstanbul" departurePlace="Isparta"/>
             </div>
             <BuyTicket buttonText='Ödeme Yap' showUserInfo=true/>
         </div>
@@ -23,9 +23,12 @@
         background-image: url("../assets/busBG.png");
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: auto;
     }
 
     .container {
         width: 50%;
+        position: relative;
+        margin-top: 100px;
     }
 </style>
