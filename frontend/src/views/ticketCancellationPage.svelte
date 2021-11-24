@@ -1,10 +1,15 @@
 <script>
     import Navbar from "../components/Navbar/navbar.svelte";
+    import TicketNotFound from "../components/TicketSearchResults/ticketNotFound.svelte";
+    import TicketFound from "../components/TicketSearchResults/ticketFound.svelte";
 </script>
 
 <main>
+    
     <div class="section">
         <Navbar />
+        <!-- <TicketNotFound /> -->
+        <TicketFound />
         <div class="card ds-flex flex-column justify-content-center">
             <div class="ticketID d-flex flex-column pb-3 fs-4">
                 <label for="bid" class="fs-4 ms-3">Bilet ID</label>
@@ -15,7 +20,7 @@
                 <input type="text" id="un" class="input fs-4">
             </div>
             <div class="button d-flex flex-row-reverse p-4">
-                <button type="button" class="btn btn-danger fs-4 p-3">İptal Et</button>
+                <button type="button" class="btn btn-danger fs-4 p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">İptal Et</button>
             </div>
         </div>
     </div>
