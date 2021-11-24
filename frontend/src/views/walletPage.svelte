@@ -24,7 +24,7 @@
         <div class="container mt-4">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <div class="card text-dark bg-light mb-3">
+                    <div class="card text-dark text-white mb-3" id="paymentSection">
                         <div class="card-body">
                             <h5 class="card-title"><b class="fs-3">Şimdi yükle, hep kazan</b></h5>
                             <p class="card-text fs-4">Kartından hemen yükle, Cüzdanım ile avantajlı alışverişin keyfini çıkart</p>
@@ -56,5 +56,14 @@
 
     #card {
         background-color: #F4F6FF;
+    }
+
+    #paymentSection {
+        background-color: rgb(15, 12, 41, 0.7);
+    }
+
+    .list-group-item {
+        background-color:rgb(255, 255, 255, 0.0);
+        border: none;
     }
 </style>
