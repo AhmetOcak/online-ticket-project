@@ -11,7 +11,7 @@
             <div class="ticketInfo">
                 <TicketCard companyName="ISPARTA PETROL" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL"/>
             </div>
-            <BuyTicket buttonText='Ödeme Yap'/>
+            <BuyTicket buttonText='Ödeme Yap' showUserInfo=true/>
         </div>
     </div>
 </main>
