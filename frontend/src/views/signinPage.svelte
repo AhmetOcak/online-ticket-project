@@ -100,12 +100,6 @@
   box-sizing: border-box;
 }
 
-body,
-input {
-  
-  font-family: "Poppins", sans-serif;
-}
-
 .container {
   position: relative;
   width: 100%;
