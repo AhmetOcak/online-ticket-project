@@ -4,7 +4,6 @@
 
 </script>
 <main>
-<<<<<<< HEAD
     <Navbar/>
     <div class="text">
         <h1>Seyehatlerim</h1>
@@ -74,7 +73,6 @@
           <h1>KBP</h1>
           <h2>Kyiv</h2>
           <h3>21:45</h3>
->>>>>>> 0094ca2ea601ebce776a2c1eb4831cecb834db0e
         </div>
         <div id="tur" class="row justify-content-center">
           <br>
