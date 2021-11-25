@@ -1,9 +1,10 @@
 <script>
-
+  import Navbar from "../components/Navbar/navbar.svelte";
 
 </script>
 <main>
     <div class="container">
+      <Navbar />
         <div class="forms-container">
           <div class="signin-signup">
             <form action="#" class="sign-in-form">
@@ -23,55 +24,25 @@
               <input class="btn solid" type="submit" value="Kayıt Ol" />
               <p class="social-text">Veya sosyal platformlarla kaydolun</p>
               <div class="social-media">
-                <a href="#" class="social-icon">
+                <a href="https://www.facebook.com/" class="social-icon" target="blank">
                   <i class="bi bi-facebook"></i>
                 </a>
-                <a href="#" class="social-icon">
+                <a href="https://twitter.com/i/flow/login" class="social-icon">
                   <i class="bi bi-twitter"></i>
                 </a>
-                <a href="#" class="social-icon">
+                <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dtr&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dtr&hl=tr&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social-icon">
                   <i class="bi bi-google"></i>
                 </a>
-                <a href="#" class="social-icon">
+                <a href="https://www.linkedin.com/" class="social-icon">
                   <i class="bi bi-linkedin"></i>
                 </a>
               </div>
             </form>
-            <form action="#" class="sign-up-form">
-              <h2 class="title">Üye Ol</h2>
-              <div class="input-field">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="Username" />
-              </div>
-              <div class="input-field">
-                <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div class="input-field">
-                <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Password" />
-              </div>
-              <input type="submit" class="btn" value="Sign up" />
-              <p class="social-text">Veya Sosyal Platformlarla Kaydolun</p>
-              <div class="social-media">
-                <a href="#" class="social-icon">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </form>
+            
           </div>
         </div>
   
-        <div class="panels-container">
+        <div class="panels-container mt-5">
           <div class="panel left-panel">
             <div class="content">
               <h3>Üye Misiniz?</h3>
@@ -84,12 +55,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
 </main>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -144,11 +109,6 @@ form {
 
 form.sign-in-form {
   z-index: 2;
-}
-
-form.sign-up-form {
-  z-index: 1;
-  opacity: 0;
 }
 
 .title {
@@ -275,11 +235,6 @@ form.sign-up-form {
 .left-panel {
   pointer-events: all;
   padding: 3rem 17% 2rem 12%;
-}
-
-.right-panel {
-  pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
 }
 
 .panel{
