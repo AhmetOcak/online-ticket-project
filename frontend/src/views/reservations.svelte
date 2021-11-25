@@ -68,7 +68,6 @@
 
 
 .section{
-  margin-top: 100px;
     width: 100%;
     height: 170vh;
     background-image: url("../assets/12345.jpg");
