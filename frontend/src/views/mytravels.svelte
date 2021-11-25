@@ -30,7 +30,6 @@
               Download
             </button>
           </div>
-=======
   <Navbar/>
   <div class="text">
       <h1>Seyehatlerim</h1>
