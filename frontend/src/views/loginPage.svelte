@@ -36,7 +36,6 @@
             </form>
           </div>
         </div>
-  
         <div class="panels-container">
           <div class="panel left-panel">
             <div class="content">
@@ -48,15 +47,8 @@
             </div>
             <img src="assets/log.png" class="image" alt="" />
           </div>
-
         </div>
       </div>
-
-
-
-
-
-
 </main>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");

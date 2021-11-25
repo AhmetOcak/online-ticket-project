@@ -276,10 +276,6 @@ form.sign-in-form {
   width: 650px;
   margin-left: 150px;
   margin-bottom: 120px;
-  
-
 }
-
-
 
 </style>
