@@ -16,13 +16,13 @@
                         <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Bilet İptal</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-search pe-1"></i><p>Rezervasyonlarım</p></a>
+                        <a href="/reservations" use:link class="nav-link"><i class="bi bi-search pe-1"></i><p>Rezervasyonlarım</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-person-circle pe-1"></i><p>Üye ol</p></a>
+                        <a href="/signinPage" use:link class="nav-link"><i class="bi bi-person-circle pe-1"></i><p>Üye ol</p></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-box-arrow-in-right pe-1"></i><p>Giriş</p></a>
+                        <a href="/LoginPage" use:link class="nav-link"><i class="bi bi-box-arrow-in-right pe-1"></i><p>Giriş</p></a>
                     </li>
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
@@ -31,11 +31,16 @@
                                     <i class="bi bi-person-circle pe-1"></i>
                                 </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+<<<<<<< HEAD
                                 <li><a class="dropdown-item" href="/profilePage" use:link><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
+=======
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
+                                <li><a class="dropdown-item" href="/accountSettings" use:link><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
+>>>>>>> 1ee9b5a376ae98b8b135bca126b97834d77b3aee
                                 <li><a class="dropdown-item" href="/walletPage" use:link><i class="bi bi-wallet-fill"></i> Cüzdanım</a></li>
                                 <li><a class="dropdown-item" href="/myBillsPage" use:link><i class="bi bi-receipt"></i> Faturalarım</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="bi bi-geo"></i> Seyahatlerim</a></li>
+                                <li><a class="dropdown-item" href="/myTravels" use:link><i class="bi bi-geo"></i> Seyahatlerim</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-x-octagon-fill"></i> Hesaptan Çıkış</a></li>
                             </ul>
                             </li>
