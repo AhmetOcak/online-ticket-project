@@ -68,7 +68,6 @@
 
 
 .section{
-  margin-top: 100px;
     width: 100%;
     height: 170vh;
     background-image: url("../assets/12345.jpg");
@@ -82,8 +81,8 @@
   width: 50px;
   height: 50px;
   position: absolute;
-  left: 430px;
-  top: 50px;
+  left: 410px;
+  top: 130px;
   right: 30px;
   color: white;
 }
@@ -92,7 +91,7 @@
   position: absolute;
   background: rgb(250, 249, 249);
   left: 400px;
-  top: 120px;
+  top: 180px;
   right: 400px;
   box-shadow: 0 0 20px 9px #44403e1f;
   border-radius: 5px;

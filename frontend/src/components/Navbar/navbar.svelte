@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Rezervasyon İptal</p></a>
+                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Bilet İptal</p></a>
                     </li>
                     <li class="nav-item">
                         <a href="/reservations" use:link class="nav-link"><i class="bi bi-search pe-1"></i><p>Rezervasyonlarım</p></a>
@@ -31,6 +31,8 @@
                                     <i class="bi bi-person-circle pe-1"></i>
                                 </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/profilePage" use:link><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
                                 <li><a class="dropdown-item" href="/accountSettings" use:link><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
                                 <li><a class="dropdown-item" href="/walletPage" use:link><i class="bi bi-wallet-fill"></i> Cüzdanım</a></li>
@@ -56,14 +58,11 @@
 </main>
 
 <style>
+
     a {
         text-decoration: none;
         display: flex;
         flex-direction: row;
-    }
-
-    .navbar {
-        position: absolute;
     }
 
 </style>

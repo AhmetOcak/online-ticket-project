@@ -2,7 +2,6 @@
     import TicketCard from '../../components/TicketList/ticketCard.svelte';
     import Navbar from '../../components/Navbar/navbar.svelte';
     let pushPath = '/buyPlaneTicketPage';
-    let showButton = true;
 </script>
 
 <main>
@@ -11,28 +10,28 @@
         <div class="container  d-flex flex-column justify-content-start align-items-center">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
                 <li class="list-group-item">
-                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath} showButton={showButton}/>
+                    <TicketCard companyName="THY" departureTime="13:50" durationTime="7 saat 10 dakika" arrivalTime="21:00" price="175 TL" pushPage={pushPath}/>
                 </li>
             </ul>
         </div>

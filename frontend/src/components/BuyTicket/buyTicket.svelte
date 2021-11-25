@@ -12,7 +12,8 @@
 </script>
 
 <main>
-    <div class="d-flex flex-row justify-content-center">        
+    <div class="d-flex flex-row justify-content-center">
+        
         {#if showUserInfo}
         <div class="card text-dark bg-light mb-3" id="passengerInfo">
             <div class="card-header">Yolcu Bilgileri</div>
@@ -41,22 +42,9 @@
                     <img src={visaCard} alt="">
                     <img src={americanExpress} alt="">
                 </div>
-                {#if !walletPageButton}
-                    <div class="card-body d-flex flex-row justify-content-start">
-                        <div class="card text-dark d-flex flex-row" style="max-width: 25rem; max-height: 10vh; background-image: linear-gradient(to right, rgb(15, 12, 41, 0.9), rgb(48, 43, 99, 0.9), rgb(36, 36, 62, 0.9));" id="card">
-                            <div class="d-flex flex-column justify-content-center align-items-center">
-                                <h6 class="ms-2" style="color: pink;">onlinepay <br> cüzdanım</h6>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title" style="color: aliceblue;">Toplam Bakiye</h6>
-                                <p class="card-text text-warning fs-6">0.00TL</p>
-                            </div>
-                        </div>
-                    </div>
-                {/if}
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardNo">Kart Numarası</label>
-                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required autocomplete="cc-csc">
+                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required>
                 </div>
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardUserInfo">Kart Üzerindeki İsim</label>
@@ -66,22 +54,22 @@
                     <div class="card-body d-flex flex-column">
                         <label for="last">Son Kullanma Tarihi</label>
                         <select name='expireMM' id='expireMM' required>
-                            <option value=''>Ay</option>
-                            <option value='01'>Ocak</option>
-                            <option value='02'>Şubat</option>
-                            <option value='03'>Mart</option>
-                            <option value='04'>Nisan</option>
-                            <option value='05'>Mayıs</option>
-                            <option value='06'>Haziran</option>
-                            <option value='07'>Temmuz</option>
-                            <option value='08'>Ağustos</option>
-                            <option value='09'>Eylül</option>
-                            <option value='10'>Ekim</option>
-                            <option value='11'>Kasım</option>
-                            <option value='12'>Aralık</option>
+                            <option value=''>Month</option>
+                            <option value='01'>January</option>
+                            <option value='02'>February</option>
+                            <option value='03'>March</option>
+                            <option value='04'>April</option>
+                            <option value='05'>May</option>
+                            <option value='06'>June</option>
+                            <option value='07'>July</option>
+                            <option value='08'>August</option>
+                            <option value='09'>September</option>
+                            <option value='10'>October</option>
+                            <option value='11'>November</option>
+                            <option value='12'>December</option>
                         </select> 
                         <select name='expireYY' id='expireYY' required>
-                            <option value=''>Yıl</option>
+                            <option value=''>Year</option>
                             <option value='21'>2021</option>
                             <option value='22'>2022</option>
                             <option value='23'>2023</option>
@@ -119,10 +107,10 @@
 
 <style>
     #cardInfo {
-        width: 50%;
+        width: 45%;
     }
 
-    a {
+    a{
         text-decoration: none;
         color: #000;
     }
@@ -133,7 +121,6 @@
     }
 
     #passengerInfo {
-        width: 50%;
+        width: 45%;
     }
-
 </style>
