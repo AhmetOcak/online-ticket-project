@@ -26,7 +26,6 @@
           <div id="tur">
             <h1>Otobüs Bileti</h1>
             <i class="bi bi-box-arrow-in-down"></i>
-
             <button type="button" class="btn btn-outline-secondary">
               Download
             </button>
