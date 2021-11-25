@@ -57,7 +57,7 @@
                 {/if}
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardNo">Kart Numarası</label>
-                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required>
+                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required autocomplete="cc-csc"> 
                 </div>
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardUserInfo">Kart Üzerindeki İsim</label>
