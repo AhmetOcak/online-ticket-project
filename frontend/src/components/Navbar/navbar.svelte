@@ -31,13 +31,10 @@
                                     <i class="bi bi-person-circle pe-1"></i>
                                 </a>
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-<<<<<<< HEAD
                                 <li><a class="dropdown-item" href="/profilePage" use:link><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
-=======
                                 <li><a class="dropdown-item" href="#"><i class="bi bi-person-check-fill"></i> Profili Görüntüle</a></li>
                                 <li><a class="dropdown-item" href="/accountSettings" use:link><i class="bi bi-gear-fill"></i> Hesap Ayarları</a></li>
->>>>>>> 1ee9b5a376ae98b8b135bca126b97834d77b3aee
                                 <li><a class="dropdown-item" href="/walletPage" use:link><i class="bi bi-wallet-fill"></i> Cüzdanım</a></li>
                                 <li><a class="dropdown-item" href="/myBillsPage" use:link><i class="bi bi-receipt"></i> Faturalarım</a></li>
                                 <li><a class="dropdown-item" href="/myTravels" use:link><i class="bi bi-geo"></i> Seyahatlerim</a></li>
