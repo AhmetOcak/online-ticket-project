@@ -12,8 +12,7 @@
 </script>
 
 <main>
-    <div class="d-flex flex-row justify-content-center">
-        
+    <div class="d-flex flex-row justify-content-center">        
         {#if showUserInfo}
         <div class="card text-dark bg-light mb-3" id="passengerInfo">
             <div class="card-header">Yolcu Bilgileri</div>
@@ -57,7 +56,7 @@
                 {/if}
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardNo">Kart Numarası</label>
-                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required>
+                    <input type="number" id="cardNo" placeholder="•••• •••• •••• ••••" maxlength="16" required autocomplete="cc-csc">
                 </div>
                 <div class="card-body d-flex flex-column" style="width: 90%;">
                     <label for="cardUserInfo">Kart Üzerindeki İsim</label>
