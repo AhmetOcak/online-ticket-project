@@ -8,8 +8,8 @@
     
     <div class="section">
         <Navbar />
-        <TicketNotFound />
-        <!-- <TicketFound /> -->
+        <!-- <TicketNotFound /> -->
+        <TicketFound />
         <div class="card ds-flex flex-column justify-content-center">
             <div class="ticketID d-flex flex-column pb-3 fs-4">
                 <label for="bid" class="fs-4 ms-3">Bilet ID</label>

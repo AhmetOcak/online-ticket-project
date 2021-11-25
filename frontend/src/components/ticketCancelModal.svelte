@@ -1,5 +1,5 @@
 <script>
-
+    import { push } from "svelte-spa-router";
 </script>
 
 <main>
@@ -14,7 +14,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Hayır</button>
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Evet</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal" on:click={() => push('/')}>Evet</button>
                 </div>
             </div>
         </div>
