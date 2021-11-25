@@ -1,8 +1,7 @@
 <script>
-  import Navbar from "../components/Navbar/navbar.svelte";
-  
-
+  import Navbar from "../components/Navbar/navbar.svelte"
 </script>
+
 <main>
     <Navbar/>
   <div class="text">
