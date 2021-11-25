@@ -18,15 +18,10 @@
         <Announcement />
         <div class="a"></div>
         <Campaigns />
-    
     </div>
 
     <!-- FOOTER -->
     <Footer />
-    
-
-
-
 </main>
 
 <style>
