@@ -51,7 +51,7 @@
             {/if}
         </div>
         {#if cancelTheTicket}
-            <div class="d-flex flex-row justify-content-around">
+            <div class="d-flex flex-row justify-content-between ms-3 me-3">
                 <div class="d-flex flex-column justify-content-center align-item-center">
                     <h4>Kalkış Yeri</h4>
                     <p>{departurePlace}</p>

@@ -28,13 +28,13 @@
                         <form class="form fs-5">
                             <label for="kalkis" class="fs-4 pb-1"><i class="bi bi-geo-alt-fill p-1"></i>Kalkış Noktası</label>
                             <select id="kalkis" class="py-3 mb-3" >
-                                <option value="veritabanı">veritabanı</option>
-                                <option value="veritabanı">veritabanı</option>
+                                <option value="veritabanı">İstanbul</option>
+                                <option value="veritabanı">Ankara</option>
                             </select>
                             <label for="varis" class="fs-4 pb-1"><i class="bi bi-geo-alt-fill p-1"></i>Varış Noktası</label>
                             <select id="varis" class="py-3 mb-3">
-                                <option value="veritabanı">veritabanı</option>
-                                <option value="veritabanı">veritabanı</option>
+                                <option value="veritabanı">İzmir</option>
+                                <option value="veritabanı">Konya</option>
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">
@@ -49,13 +49,13 @@
                         <form class="form fs-5">
                             <label for="kalkis" class="fs-4 pb-1"><i class="bi bi-geo-alt-fill p-1"></i>Kalkış Noktası</label>
                             <select id="kalkis" class="py-3 mb-3" >
-                                <option value="veritabanı">veritabanı</option>
-                                <option value="veritabanı">veritabanı</option>
+                                <option value="veritabanı">Tekirdağ</option>
+                                <option value="veritabanı">Diyarbakır</option>
                             </select>
                             <label for="varis" class="fs-4 pb-1"><i class="bi bi-geo-alt-fill p-1"></i>Varış Noktası</label>
                             <select id="varis" class="py-3 mb-3">
-                                <option value="veritabanı">veritabanı</option>
-                                <option value="veritabanı">veritabanı</option>
+                                <option value="veritabanı">Çanakkale</option>
+                                <option value="veritabanı">Kayseri</option>
                             </select>
                             <label for="tarih" class="fs-4"><i class="bi bi-calendar-fill p-1 pb-1"></i>Yolculuk Tarihi</label>
                             <input type="date" id="tarih" class="p-3">

@@ -27,8 +27,17 @@
                     <input type="number" id="tc" placeholder="Doldurulması zorunludur" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="11" required>
                 </div>
             </div>
+            <div class="d-flex justify-content-center ms-3 me-3 mt-2">
+                <p class="fs-5">
+                    Ödeme işlemi yalnızca <b>onlinepay cüzdanım</b> üzerinden gerçekleştirilebilir.
+                    Eğer cüzdanınızda bakiye yoksa sağ taraftaki bölümde girdiğiniz kart bilgileri 
+                    kullanılarak cüzdanınıza satın almak istediğiniz biletin ücreti kadar para yükleme
+                    işlemi yapılır ve ödeme işlemi cüzdanınız üzerinden tamamlanır. Daha hızlı bir işlem
+                    deneyimi için cüzdanınıza bakiye ekleme işlemini <b>Cüzdanım</b> sayfasında yapabilirsiniz.
+                </p>
+            </div>
             <div class="d-flex justify-content-center mt-4">
-                <button type="button" class="btn btn-success fs-5" id="userButton">{buttonText}</button>
+                <button type="button" class="btn btn-success p-3 fs-5">{buttonText}</button>
             </div>
         </div>
         {/if}
@@ -126,11 +135,6 @@
     a{
         text-decoration: none;
         color: #000;
-    }
-
-    #userButton {
-        width: 30%;
-        height: 8vh;
     }
 
     #passengerInfo {
