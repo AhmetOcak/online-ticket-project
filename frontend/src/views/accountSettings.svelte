@@ -48,7 +48,6 @@
 
 
 .section{
-    margin-top: 100px;
     width: 100%;
     height: 170vh;
     background-image: url("../assets/1.jpg");
@@ -71,7 +70,7 @@
   height: 900px;
   position: absolute;
   left: 430px;
-  top: 40px;
+  top: 130px;
   right: 30px;
   color: white;
   margin-bottom: 30px;
@@ -82,9 +81,9 @@
   box-shadow: 0 0 20px 9px #44403e1f;
   margin: 30px;
   width: auto;
-  height: 1000px;
+  height: 1050px;
   position: absolute;
-  top: 60px;
+  top: 160px;
   left: 400px;
   right: 400px;
   position: absolute;
@@ -153,7 +152,7 @@ p {
   height: 900px;
   position: absolute;
   left: 400px;
-  top: 580px;
+  top: 680px;
   right: 850px;
   color: rgb(0, 0, 0);
 }
@@ -169,7 +168,7 @@ p {
   width: auto;
   height: 420px;
   position: absolute;
-  top: 600px;
+  top: 700px;
   left: 410px;
   right: 400px;
   position: absolute;
