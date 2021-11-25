@@ -5,34 +5,8 @@
 </script>
 <main>
     <Navbar/>
-    <div class="text">
-        <h1>Seyehatlerim</h1>
-    </div>
-    <div class="section">     
-      <div class="box_seyehatlerim">
-        <div class="ticket1">
-          <div id="gidis">
-            <h4>Gidiş : 12.01.2022</h4>
-            <h1>AAO</h1>
-            <h2>Ankara</h2>
-            <h3>12:45</h3>
-          </div>
-          <div id="varis">
-            <h3>Varış : 12.01.2022</h3>
-            <h1>AO</h1>
-            <h2>Antalya</h2>
-            <h3>17:30</h3>
-          </div>
-          <div id="tur">
-            <h1>Otobüs Bileti</h1>
-            <i class="bi bi-box-arrow-in-down"></i>
-            <button type="button" class="btn btn-outline-secondary">
-              Download
-            </button>
-          </div>
-  <Navbar/>
   <div class="text">
-      <h1>Seyehatlerim</h1>
+      <h1>Seyahatlerim</h1>
   </div>
   <div class="section">     
     <div class="box_seyehatlerim">
