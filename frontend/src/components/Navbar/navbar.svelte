@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Bilet İptal</p></a>
+                        <a href="/ticketCancellationPage" use:link class="nav-link"><i class="bi bi-x-circle pe-1"></i><p>Rezervasyon İptal</p></a>
                     </li>
                     <li class="nav-item">
                         <a href="/reservations" use:link class="nav-link"><i class="bi bi-search pe-1"></i><p>Rezervasyonlarım</p></a>
@@ -60,6 +60,10 @@
         text-decoration: none;
         display: flex;
         flex-direction: row;
+    }
+
+    .navbar {
+        position: absolute;
     }
 
 </style>

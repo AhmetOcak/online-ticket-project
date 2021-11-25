@@ -4,7 +4,7 @@
 </script>
 
 <main>
-    <div class="section">
+    <div class="section pb-5">
         <Navbar />
         <div class="section1 d-flex flex-row justify-content-around align-items-center pt-5">
             <div class="text-white">
@@ -24,11 +24,11 @@
         <div class="container mt-4">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <div class="card text-dark bg-light mb-3">
+                    <div class="card text-dark text-white mb-3" id="paymentSection">
                         <div class="card-body">
                             <h5 class="card-title"><b class="fs-3">Şimdi yükle, hep kazan</b></h5>
                             <p class="card-text fs-4">Kartından hemen yükle, Cüzdanım ile avantajlı alışverişin keyfini çıkart</p>
-                            <BuyTicket buttonText="Bakiye Ekle"/>
+                            <BuyTicket buttonText="Bakiye Ekle" walletPageButton=true/>
                         </div>
                     </div>
                 </li>
@@ -45,7 +45,7 @@
         background-image: url("../assets/walletBG.png");
         background-repeat: no-repeat;
         background-size: cover;
-        overflow: hidden;
+        overflow: auto;
     }
 
     .section1 {
@@ -56,5 +56,14 @@
 
     #card {
         background-color: #F4F6FF;
+    }
+
+    #paymentSection {
+        background-color: rgb(15, 12, 41, 0.7);
+    }
+
+    .list-group-item {
+        background-color:rgb(255, 255, 255, 0.0);
+        border: none;
     }
 </style>
