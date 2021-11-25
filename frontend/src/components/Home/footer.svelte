@@ -1,5 +1,5 @@
 <script>
-
+    import { link } from 'svelte-spa-router';
 </script>
 
 <main>
@@ -10,9 +10,11 @@
                     <h2>Online Bilet Sitesi</h2>
                     <p class="pr-5 text-white-50">Türkiye'nin en güvenilir uçak ve bilet sitesi. </p>
                     <p>
-                        <a href="#" ><i>Sıkça Sorulan Sorular</i></a>
+                        <a href="/faqPage" use:link ><i>Sıkça Sorulan Sorular</i></a>
                         <br>
-                        <a href="#"><i>Yardım</i></a>
+                        <a href="/helpPage" use:link><i>Yardım</i></a>
+                        <br>
+                        <a href="/customerServicePage" use:link><i>Müşteri Hizmetleri</i></a>
                     </p>
                 </div>
                 <div class="col-lg-3 col-xs-12">
