@@ -11,17 +11,17 @@
         <div class="hesap">
           <div class="profile_tabShow">
             <h2>Ad Soyad</h2>
-            <input type="text" class="input" value="Emre Yılmaz" placeholder="AD SOYAD" />
+            <input type="text" class="input" />
             <h2>E-mail</h2>
-            <input type="text" class="input" value="emre@hotmail.com" />
+            <input type="text" class="input" />
             <h2>Doğum Tarihi</h2>
-            <input type="date" class="input" value="14,04,2000" />
+            <input type="date" class="input" />
             <h2>TC Kimlik No</h2>
-            <input type="text" class="input" value="14725836945" />
+            <input type="text" class="input" />
             <h2>Cep Telefonu</h2>
-            <input type="text" class="input" value="05398524578" />
-            <h2>Şehir</h2>
-            <input type="text" class="input" value="Antalya" />
+            <input type="text" class="input" />
+            <h2>Cinsiyet</h2>
+            <input type="text" class="input" />
             <button class="btn">Güncelle</button>
           </div>
         </div>
@@ -30,11 +30,11 @@
         </div>
         <div class="sifre_islemleri">
           <h2>Eski Şifre</h2>
-          <input type="password" class="input_sifre" value="cuma" />
+          <input type="password" class="input_sifre" />
           <h2>Yeni Şifre</h2>
-          <input type="password" class="input_sifre" value="persembe" />
+          <input type="password" class="input_sifre" />
           <h2>Yeni Şifre(Tekrar)</h2>
-          <input type="password" class="input_sifre" value="persembe" />
+          <input type="password" class="input_sifre" />
           <button class="btn_sifre">Şifreyi Değiştir</button>
           <h3 id="deleteAccount">Üyeliğimi Silmek İstiyorum</h3>
         </div>
