@@ -1,3 +1,4 @@
+<!-- Ahmet Ocak -->
 <script>
     import { push } from 'svelte-spa-router';
 

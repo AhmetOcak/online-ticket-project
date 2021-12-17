@@ -1,3 +1,4 @@
+<!-- Ahmet Ocak -->
 <script>
     import Navbar from '../components/Navbar/navbar.svelte';
     import BuyTicket from '../components/BuyTicket/buyTicket.svelte';

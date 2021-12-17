@@ -1,3 +1,4 @@
+<!-- Ahmet Ocak -->
 <script>
     import Navbar from '../components/Navbar/navbar.svelte';
     import BillCard from '../components/Bill/billCard.svelte';

@@ -1,3 +1,4 @@
+<!-- Ahmet Ocak -->
 <script>
     import TicketCard from '../../components/TicketList/ticketCard.svelte';
     import Navbar from '../../components/Navbar/navbar.svelte';

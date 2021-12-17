@@ -1,3 +1,4 @@
+<!-- Ahmet Ocak -->
 <script>
     import PageLang from './pageLang.svelte';
     import TlUsd from './tlUsd.svelte';
