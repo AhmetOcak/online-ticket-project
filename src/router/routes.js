@@ -1,4 +1,4 @@
-import HomePage from '../views/homepage.svelte';
+import HomePage from '../views/homePage.svelte';
 import TicketCancellationPage from '../views/ticketCancellationPage.svelte';
 import BusTicketListPage from '../views/TicketListViews/busTicketListPage.svelte';
 import PlaneTicketListPage from '../views/TicketListViews/planeTicketListPage.svelte';
@@ -20,7 +20,7 @@ import LoginPage from "../views/loginPage.svelte";
 import AccountSettings from "../views/accountSettings.svelte";
 import SigninPage from "../views/signinPage.svelte";
 import Reservations from "../views/reservations.svelte";
-import MyTravels from "../views/myTravels.svelte";
+import MyTravels from "../views/mytravels.svelte";
 
 const routes = {
     '/': HomePage,
