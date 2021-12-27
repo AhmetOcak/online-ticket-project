@@ -15,5 +15,4 @@
 			max-width: none;
 		}
 	}
-	
 </style>
